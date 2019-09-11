@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todos</title>
+    <link href="fontawesome\css\all.css" rel=stylesheet>
+    <link rel="stylesheet" href="boot.min.css">
+    <link href="styles.css" rel=stylesheet>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form  class="search">
+                <input autocomplete="OFF" type="text" name="search" class="form-control m-auto" placeholder="searchtodos">
+            </form>
+        </header>
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>play mariokart</span>
+                <i class="far fa-trash-alt delete"></i>  <!--used for font awesome.-->
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>play pubg</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>study</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+        <form  class="add text-center my-4">
+            <label for="" class="text-light">Add a new todo...</label>
+            <input name=add type="text" class="form-control m-auto" autocomplete=off>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src=app.js></script>
+</body>
+</html>
